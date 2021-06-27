@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1045025887046",
+    "project_id": "plazmabankam-e064e",
+    "storage_bucket": "plazmabankam-e064e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045025887046:android:53d26233ed036929948b47",
+        "android_client_info": {
+          "package_name": "com.example.plazmabankam2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045025887046-mfkd80cgu8rd4u5ie9uitbto1jp0cldr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Yn3TaerEkXSdzYgCs4ZDwWpNGoJcRwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045025887046-mfkd80cgu8rd4u5ie9uitbto1jp0cldr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

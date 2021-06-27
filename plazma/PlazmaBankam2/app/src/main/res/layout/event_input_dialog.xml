@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/event_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/label_event_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:maxLines="1"
+        android:inputType="text"
+        android:layout_below="@id/spinner" />
+
+    <EditText
+        android:id="@+id/event_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/label_event_details"
+        android:inputType="textMultiLine|text"
+        android:layout_below="@id/event_title"/>
+
+    <EditText
+        android:id="@+id/edt_expire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/label_hours_to_expire"
+        android:maxLines="1"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/event_details"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/edt_expire"
+        android:layout_alignRight="@id/edt_expire"
+        android:text="@string/label_submit"
+        android:layout_alignEnd="@id/edt_expire"
+        android:textColor="#ffffff"
+        android:background="#ff0000"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/edt_expire"
+        android:text="@string/label_cancel"
+        android:textColor="#ffffff"
+        android:background="#ff0000"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#ff0000"
+        android:layout_below="@id/btn_cancel"
+        android:textColor="#ffffff"
+        android:text="@string/label_delete_event" />
+
+</RelativeLayout>

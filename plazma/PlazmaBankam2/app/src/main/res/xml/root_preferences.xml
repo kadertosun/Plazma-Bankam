@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <PreferenceCategory android:title="@string/filter_header">
+
+        <SwitchPreferenceCompat
+            android:key="filter"
+            android:title="@string/filters_title"
+            android:defaultValue="true" />
+
+        <EditTextPreference
+            android:key="distance"
+            android:dependency="filter"
+            android:title="@string/distance_title"
+            android:defaultValue="10000" />
+
+        <MultiSelectListPreference
+            android:dependency="filter"
+            android:defaultValue="@array/category_entries"
+            android:entries="@array/category_entries"
+            android:entryValues="@array/category_entries"
+            android:key="categories"
+            android:title="Etkinleşecek Bölüm" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

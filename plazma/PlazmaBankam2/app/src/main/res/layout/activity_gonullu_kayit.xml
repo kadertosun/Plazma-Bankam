@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+    <TextView
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/txt1"
+        android:layout_width="408dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="5dp"
+        android:background=" #ff0000"
+        android:text="   GÖNÜLLÜ BİLGİLERİ"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+
+
+    <EditText
+        android:id="@+id/Gil"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="89dp"
+        android:hint="İl Giriniz" />
+
+    <EditText
+        android:id="@+id/Gilce"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="150dp"
+        android:hint="İlçe Giriniz" />
+
+    <EditText
+        android:id="@+id/Kangrubu"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="227dp"
+        android:hint="Kan Grubu Giriniz" />
+
+    <EditText
+        android:id="@+id/Cinsiyett"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="293dp"
+        android:hint="Cinsiyet Giriniz"
+       />
+
+    <Button
+        android:id="@+id/kayıtbtnn"
+        android:layout_width="408dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="29dp"
+        android:background="@drawable/gosterkirmizi"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+
+</RelativeLayout>

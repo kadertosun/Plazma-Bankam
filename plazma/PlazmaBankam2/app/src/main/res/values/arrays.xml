@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="category_entries">
+        <item>Gönüllü</item>
+        <item>Hasta</item>
+    </string-array>
+</resources>

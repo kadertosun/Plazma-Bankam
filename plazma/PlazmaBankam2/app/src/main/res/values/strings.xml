@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Plazma Bankam</string>
+    <string name="username">Kullanıcı Adınızı Giriniz</string>
+    <string name="email">E-mail adresinizi Giriniz</string>
+    <string name="password">Şifrenizi Giriniz</string>
+    <string name="register">Üye değil misiniz?   Kaydolun</string>
+    <string name="login">Üye misiniz?   Giriş Yapın</string>
+    <string name="loginText">Giriş Yap</string>
+    <string name="loginTamam">Tamam</string>
+    <string name="registerText">Kaydol</string>
+    <string name="resetpassword">Sıfırla</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_events">My Events List</string>
+    <string name="label_submit">Kaydet</string>
+    <string name="label_update">Güncelle</string>
+    <string name="label_cancel">Kapat</string>
+    <string name="label_delete_event">Sil</string>
+    <string name="label_event_title">Ne Yapmak İstiyorsunuz?</string>
+    <string name="label_event_details">Detay Veriniz.</string>
+    <string name="label_hours_to_expire">İletişim Numarası</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_display_name">İsim </string>
+    <string name="prompt_password">Parola</string>
+    <string name="action_user_menu">Kullanıcı Menü</string>
+    <string name="action_main">Ana Menü</string>
+    <string name="action_log_in">Oturum Aç</string>
+    <string name="action_log_out">Çıkış Yap</string>
+    <string name="action_sign_up">Kaydol</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_list_events">Olay Listesi</string>
+    <string name="welcome_user">"Hoşgeldiniz "</string>
+    <string name="invalid_username">Geçerli Kullanıcı Adı Değil</string>
+    <string name="invalid_password">Parola minimum 6 karakter olmalıdır</string>
+    <string name="login_failed">Giriş Başarısız</string>
+    <string name="prompt_turn_on_location">Lütfen Konumunuzu Açınız</string>
+    <string name="logged_in_as">"Giriş Yapınız "</string>
+    <string name="bye_user">" Çıkış Yap"</string>
+    <string name="label_nothing_here_yet">Yeni bilgi giriniz…</string>
+    <string name="label_event_expired">Süre Doldu!</string>
+    <string name="label_event_expires_in">Bitiş Tarihi %02d Saat %02d Dakika</string>
+    <string name="label_location_null">Konum verileri boş, yeni konum verileri istiyor</string>
+    <string name="label_updating_current_location">Mevcut Konum Güncelleniyor%d: (%f, %f)</string>
+    <string name="action_delete_confirm">Silmek İstedğinizden Emin Misiniz?</string>
+    <string name="action_event_updated">Güncelle</string>
+    <string name="action_event_deleted">Sil</string>
+
+    <string name="title_activity_settings">Ayarlar</string>
+    <!-- Preference Titles -->
+    <string name="notifications_header">Bildirimler</string>
+    <string name="filter_header">Filtrele</string>
+    <!-- Notification Preferences -->
+    <string name="distance_title">Ayarlar</string>
+    <!-- Filter Preferences -->
+    <string name="filters_title">Filtereleri Etkinleştir</string>
+    <string name="enable_notifications_title">enable_notifications_title</string>
+
+</resources>
+

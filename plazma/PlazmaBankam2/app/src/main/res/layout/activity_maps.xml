@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_event_list"
+        android:layout_width="@dimen/standard_55"
+        android:layout_height="@dimen/standard_55"
+        android:layout_gravity="end|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/home"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        android:contentDescription="@string/action_list_events"
+        android:layout_margin="16dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_login"
+        android:layout_width="@dimen/standard_55"
+        android:layout_height="@dimen/standard_55"
+        android:layout_gravity="end|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/person"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        android:contentDescription="@string/action_log_in"
+        android:layout_margin="16dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_settings"
+        android:layout_width="@dimen/standard_55"
+        android:layout_height="@dimen/standard_55"
+        android:layout_gravity="end|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/setting"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        android:contentDescription="@string/action_settings"
+        android:layout_margin="16dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_user_menu"
+        android:layout_width="@dimen/standard_55"
+        android:layout_height="@dimen/standard_55"
+        android:layout_gravity="end|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/menu"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        android:contentDescription="@string/action_user_menu"
+        android:layout_margin="16dp" />
+
+
+
+
+
+
+</RelativeLayout>
